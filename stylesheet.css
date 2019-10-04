@@ -1,0 +1,86 @@
+body	{
+		background-color: #16181a;
+		color: white;
+	}
+
+
+.sidenav	{
+	height: 100%;
+	width: 150px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: black; 
+	overflow-x: hidden;  /* Disables horizontal scrolling */
+	padding-top: 100px;
+	
+}
+
+.adbar	{
+	height: 100%;
+	width: 150px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: #C0C0C0; 
+	overflow-x: hidden;  /* Disables horizontal scrolling */
+	padding-top: 100px;
+	
+}
+
+
+.sidenav a	{
+	padding: 12px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	font-variant: small-caps;
+	font-family: "Times New Roman", "Century Gothic", Verdana, Arial, sans-serif;
+}	
+
+a:link	{
+	color: white;
+}
+
+a:visited	{
+	color: white;
+}
+
+a:hover		{
+	color: #857e7e;
+}
+
+a:selected	{
+	color: #4d4949;
+}
+
+.mainsection	{
+		background-repeat: no-repeat;
+		background-color: #16181a;
+}
+
+.maintext	{
+		text-decoration: none;
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-family: "Agency FB", "Century Gothic", Calibri, sans-serif;
+		font-weight: lighter;
+		font-size: x-large;
+		font-variant: small-caps;
+}
+
+.pagetitlecontainer		{
+		text-align: center;
+		margin-top: 150px;
+		font-family: "Agency FB", "Century Gothic", Calibri, sans-serif;
+		font-size: 38px;
+		color: black;
+		background-image: linear-gradient(to bottom right,#E0E0E0, #4f4f56);
+}
+
